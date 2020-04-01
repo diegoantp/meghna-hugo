@@ -21,3 +21,13 @@ fields:
   - type: text
     name: link
     label: link
+- name: Formacion
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: educacion
+  description: IBT UNAM
